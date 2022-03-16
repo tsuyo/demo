@@ -27,5 +27,5 @@ steps:
       - --set
       - container.image=asia-northeast1-docker.pkg.dev/$PROJECT_ID/demo/demo
       - --set
-      - container.tag=${COMMIT_SHA}
+      - container.tag=19c9ea35d57ec8b1a54a8fc49d526e332c3b997c
       - ./k8s/demo
