@@ -4,7 +4,6 @@ steps:
     name: gcr.io/cloud-builders/kubectl
     env:
       - CLOUDSDK_CORE_PROJECT=$PROJECT_ID
-      - CLOUDSDK_COMPUTE_REGION=${_CLOUDSDK_COMPUTE_REGION}
       - CLOUDSDK_COMPUTE_ZONE=${_CLOUDSDK_COMPUTE_ZONE}
       - CLOUDSDK_CONTAINER_CLUSTER=${_CLOUDSDK_CONTAINER_CLUSTER}
       - KUBECONFIG=/workspace/.kube/config
